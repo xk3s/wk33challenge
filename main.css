@@ -5,12 +5,15 @@ body {
 section {
   background-color: #eee;
 }
+
 article {
   background-color: #fff;
 }
+
 footer {
   border: solid 1px;
 }
+
 a {
   color: green;
 }
@@ -22,17 +25,17 @@ section, article, footer {
 
 nav {
   margin: 10px;
-  > a {
-    margin:10px;
-    color: gray;
-    text-decoration: none;
-  }
+}
+nav > a {
+  margin: 10px;
+  color: gray;
+  text-decoration: none;
 }
 
 div > p {
   color: red;
 }
 
- article + article {
+article + article {
   margin-top: 10px;
 }
